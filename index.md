@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-hero_title: "QEFIR Lab"
+hero_title: "Quantitative Ecology of Forest Insects Research Lab"
 tagline: "Understanding forest ecosystems through the lens of insect population dynamics"
 hero_description: |
   We combine field ecology, statistical modeling, and computational approaches to understand how insect populations shape forest ecosystems. Our research spans spatial dynamics, outbreak prediction, climate change impacts, and forest health assessment.
