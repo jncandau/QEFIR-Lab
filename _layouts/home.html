@@ -4,7 +4,12 @@ layout: default
 
 <section class="hero">
   <div class="hero-content">
-    <h1>{{ page.hero_title | default: site.title }}</h1>
+    <div class="hero-title-wrapper">
+      {% if page.logo %}
+      <img src="{{ page.logo | relative_url }}" alt="{{ site.title }} logo" class="hero-logo">
+      {% endif %}
+      <h1>{{ page.hero_title | default: site.title }}</h1>
+    </div>
     <p class="tagline">{{ page.tagline | default: "Quantitative ecology of forest insects" }}</p>
     <div class="hero-description">
       {{ page.hero_description | markdownify }}
@@ -14,11 +19,4 @@ layout: default
 
 <div class="main-content">
   {{ content }}
-</div>
-
-<div class="hero-title-wrapper">
-  {% if page.logo %}
-  <img src="{{ page.logo | relative_url }}" alt="logo" class="hero-logo">
-  {% endif %}
-  <h1>{{ page.hero_title }}</h1>
 </div>
