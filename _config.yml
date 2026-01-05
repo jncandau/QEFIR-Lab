@@ -1,8 +1,8 @@
 # Site settings
 title: "QEFIR Lab"
 description: "Quantitative ecology of forest insects — population dynamics, spatial modeling, and ecosystem interactions"
-baseurl: "" # subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol, e.g. https://yourusername.github.io
+baseurl: "/QEFIR-Lab" # subpath of your site, e.g. /blog
+url: ""https://jncandau.github.io"" # the base hostname & protocol, e.g. https://yourusername.github.io
 
 # Build settings
 markdown: kramdown
